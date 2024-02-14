@@ -1,0 +1,201 @@
+#heroBg{
+	height: 900px;
+	background-color: rgb(27, 27, 27);
+}
+#heroLayout{
+	width: 100%;
+	height: 900px;
+	text-align: center;
+	padding: 0px 120px;
+}
+
+#heroLayout tr td{
+	width: 50%;
+}
+#heroImage{
+	width: 500px;
+	content: url("../images/pics/derrick.jpg");
+}
+#heroLayout tr td div{
+	width: 90%;
+}
+#socialMediaHandles{
+	position: absolute;
+	z-index: 1;
+	border: 1px solid rgb(58, 91, 158);
+	border-radius: 25px;
+	top: 380px;
+	left: 23px;
+}
+#socialMediaHandles2{
+	display: none;
+}
+#socialMediaHandles a img{
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin: 20px 5px 20px 5px;
+}
+#socialMediaHandles a:nth-child(1){
+	margin-top: 15px;
+}
+#socialMediaHandles a:nth-child(4){
+	margin-bottom: 15px;
+}
+#socialMediaHandles a:nth-child(1):hover img{
+	content:url("../images/icons/facebook_icon_hover.png");
+}
+#socialMediaHandles a:nth-child(2):hover img{
+	content:url("../images/icons/twitter_icon_hover.png");
+}
+#socialMediaHandles a:nth-child(3):hover img{
+	content:url("../images/icons/instagram_icon_hover.png");
+}
+#socialMediaHandles a:nth-child(4):hover img{
+	content:url("../images/icons/github_icon_hover.png");
+}
+#heroLayout2{
+	display: none;
+}
+#heroLayout tr td div{
+	vertical-align: middle;
+	margin-top: 20px;
+}
+#heroLayout tr td:nth-child(1){
+	text-align: left;
+}
+#heroLayout tr td div:nth-child(1){
+	color: rgb(58, 91, 158);
+	font-size: 2.4em;
+}
+#heroLayout tr td div:nth-child(2){
+	color: white;
+	font-size: 3.0em;
+	font-weight: bold;
+}
+#heroLayout tr td div:nth-child(3){
+	color: white;
+	font-size: 1.6em;
+}
+#heroLayout tr td div:nth-child(4){
+	color: rgb(160, 160, 160);
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+@media (max-width: 1200px){
+	#heroBg{
+		height: 800px;
+	}
+	#heroLayout{
+		height: 800px;
+		padding: 0px 90px;
+	}
+	#socialMediaHandles{
+		top: 300px;
+	}
+	#socialMediaHandles a img{
+		width: 20px;
+		height: 20px;
+		margin: 20px 5px 20px 5px;
+	}
+	#heroImage{
+		width: 300px;
+	}
+	#heroLayout tr td:nth-child(1){
+		width: 60%;
+	}
+	#heroLayout tr td:nth-child(2){
+		width: 40%;
+	}
+	#heroLayout tr td{
+		font-size: 0.9em;
+	}
+	#heroLayout tr td div{
+		width: 100%;
+	}
+}
+
+@media (max-width: 1000px){
+	#heroBg{
+		height: 900px;
+	}
+	#heroLayout{
+		display: none;
+	}
+	#heroLayout2{
+		display: block;
+		height: 900px;
+		text-align: center;
+		padding: 100px 50px 0px 50px;
+	}
+	#heroLayout2 div{
+		margin-top: 20px;
+	}
+	#heroLayout2 div:nth-child(1){
+		color: rgb(58, 91, 158);
+		font-size: 2.1em;
+	}
+	#heroLayout2 div:nth-child(2){
+		color: white;
+		font-size: 2.7em;
+		font-weight: bold;
+	}
+	#heroLayout2 div:nth-child(3){
+		color: white;
+		font-size: 1.3em;
+	}
+	#heroLayout2 div:nth-child(4){
+		color: rgb(160, 160, 160);
+		font-size: 1.1em;
+		line-height: 1.4em;
+	}
+	#heroImage2{
+		margin: 20px auto 0px auto;
+		width: 57%;
+	}
+	#socialMediaHandles{
+		display: none;
+	}
+	#socialMediaHandles2{
+		display: block;
+	}
+	#socialMediaHandles2 a img{
+		width: 25px;
+		height: 25px;
+		margin: 5px 20px 5px 20px;
+	}
+	#socialMediaHandles2 a:nth-child(1){
+		margin-left: 15px;
+	}
+	#socialMediaHandles2 a:nth-child(4){
+		margin-right: 15px;
+	}
+	#socialMediaHandles2 a:nth-child(1):hover img{
+		content:url("../images/icons/facebook_icon_hover.png");
+	}
+	#socialMediaHandles2 a:nth-child(2):hover img{
+		content:url("../images/icons/twitter_icon_hover.png");
+	}
+	#socialMediaHandles2 a:nth-child(3):hover img{
+		content:url("../images/icons/instagram_icon_hover.png");
+	}
+	#socialMediaHandles2 a:nth-child(4):hover img{
+		content:url("../images/icons/github_icon_hover.png");
+	}
+}	
+
+@media (max-width: 800px){
+	#heroBg{
+		height: 900px;
+	}
+	#heroLayout2{
+		padding: 100px 20px 0px 20px;
+	}
+}
+
+@media (max-width: 600px){
+	#heroBg{
+		height: 700px;
+	}
+}
